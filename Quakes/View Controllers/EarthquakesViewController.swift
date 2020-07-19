@@ -1,11 +1,3 @@
-//
-//  EarthquakesViewController.swift
-//  Quakes
-//
-//  Created by Paul Solt on 10/3/19.
-//  Copyright © 2019 Lambda, Inc. All rights reserved.
-//
-
 import UIKit
 import MapKit
 

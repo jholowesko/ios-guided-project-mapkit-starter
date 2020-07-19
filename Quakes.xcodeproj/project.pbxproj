@@ -64,19 +64,51 @@
 		BD482518236B3B6600FC12E9 /* Quakes */ = {
 			isa = PBXGroup;
 			children = (
-				BD482519236B3B6600FC12E9 /* AppDelegate.swift */,
-				BD48251B236B3B6600FC12E9 /* SceneDelegate.swift */,
-				BD48253B236B3BD500FC12E9 /* EarthquakesViewController.swift */,
-				BD482541236B3C4F00FC12E9 /* QuakeDetailView.swift */,
+				C26CA12024C3CFA800492B53 /* Resources */,
+				C26CA12124C3CFC200492B53 /* Storyboard */,
+				C26CA12224C3CFD300492B53 /* View Controllers */,
+				C26CA12324C3CFDB00492B53 /* Views */,
 				8745A19023D936F200A84312 /* QuakeFetcher.swift */,
 				8745A18E23D9322400A84312 /* Quake.swift */,
 				8745A19223D9377A00A84312 /* CoordinateRegion.swift */,
-				BD6DDD1A23993CB100CA2A91 /* Main.storyboard */,
+			);
+			path = Quakes;
+			sourceTree = "<group>";
+		};
+		C26CA12024C3CFA800492B53 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD482519236B3B6600FC12E9 /* AppDelegate.swift */,
+				BD48251B236B3B6600FC12E9 /* SceneDelegate.swift */,
 				BD482522236B3B6800FC12E9 /* Assets.xcassets */,
 				BD482524236B3B6800FC12E9 /* LaunchScreen.storyboard */,
 				BD482527236B3B6800FC12E9 /* Info.plist */,
 			);
-			path = Quakes;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C26CA12124C3CFC200492B53 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BD6DDD1A23993CB100CA2A91 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C26CA12224C3CFD300492B53 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD48253B236B3BD500FC12E9 /* EarthquakesViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C26CA12324C3CFDB00492B53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD482541236B3C4F00FC12E9 /* QuakeDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Quakes/Info.plist;
+				INFOPLIST_FILE = Quakes/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Quakes/Info.plist;
+				INFOPLIST_FILE = Quakes/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
