@@ -1,11 +1,3 @@
-//
-//  QuakeFetcher.swift
-//  Quakes
-//
-//  Created by Paul Solt on 1/16/20.
-//  Copyright © 2020 Lambda, Inc. All rights reserved.
-//
-
 import Foundation
 import MapKit
 

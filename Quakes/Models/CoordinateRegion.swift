@@ -1,11 +1,3 @@
-//
-//  CoordinateRegion.swift
-//  Quakes
-//
-//  Created by Andrew R Madsen on 10/17/18.
-//  Copyright © 2018 Lambda School. All rights reserved.
-//
-
 import Foundation
 import CoreLocation
 import MapKit
